@@ -1,0 +1,4 @@
+terraform graph | dot -Tsvg > graph.svg
+
+https://www.graphviz.org/download/
+download this and run the command above to get a svg file where you can see which resources is connected to which.

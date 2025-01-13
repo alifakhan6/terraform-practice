@@ -65,7 +65,7 @@ resource "aws_security_group" "dev-vpc-sg" {
   }
   #data leaving
   egress {
-    description = "Allow all ip and ports outboun"
+    description = "Allow all ip and ports outbound"
     from_port   = 0
     to_port     = 0
     protocol    = "-1"
